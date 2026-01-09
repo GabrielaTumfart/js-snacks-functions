@@ -12,8 +12,25 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 //**farò diventare inizialeParole il nome della funzione */
 //** userò la forma arrow perché mi sembra più facile */
 
-//stampo la lista 
-console.log(names);
+// stampo la lista 
+console.table(names);
+
+// creo la funzione usando arrow
+
+const inizialeParole = (nomi) => {
+
+    // faccio un ciclo per prendere ogni nomi dell'array
+
+    
+
+}
+
+
+
+
+
+
+
 
 
 
