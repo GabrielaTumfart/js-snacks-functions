@@ -21,7 +21,7 @@ const inizialeParole = (nomi) => {
 
     // provo a creare un array vuoto
 
-    const inizialiWord = [""];
+    const inizialiWord = [];
 
 
 
