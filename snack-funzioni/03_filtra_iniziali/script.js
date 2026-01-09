@@ -16,6 +16,13 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 // stampo la lista
 console.table(names);
 
+const filtroNomi = (listaDeiNomi, lettera) => [
+
+    // così come nell'esercizio di prima creo un array vuoto
+
+    const nomeGiaFiltrati = [];
+]
+
 
 // Invoca la funzione qui e stampa il risultato in console
 
