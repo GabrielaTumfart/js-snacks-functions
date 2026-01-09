@@ -42,7 +42,7 @@ const inizialeParole = (nomi) => {
 
 // Invoca la funzione qui e stampa il risultato in console
 
-const invoca = inizialeParole(names)
+const invoca = inizialeParole(names);
 
 // e stampo il risultato
 
