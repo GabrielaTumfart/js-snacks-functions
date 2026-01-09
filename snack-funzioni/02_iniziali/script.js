@@ -19,11 +19,20 @@ console.table(names);
 
 const inizialeParole = (nomi) => {
 
+    // provo a creare un array vuoto
+
+    const inizialiWord = [""];
+
+
+
+
     // faccio un ciclo per prendere ogni nomi dell'array
 
     for (let i = 0; i < nomi.length; i++) {
         const ilNomeCorrente = nomi[i];
         primaLetteraDelNome = ilNomeCorrente;
+
+        inizialiWord.push(primaLetteraDelNome) 
         
     }
 
