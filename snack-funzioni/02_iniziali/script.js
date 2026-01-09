@@ -33,7 +33,7 @@ const inizialeParole = (nomi) => {
         const primaLetteraDelNome = ilNomeCorrente[0];
 
         inizialiWord.push(primaLetteraDelNome) 
-        
+    
     }
 
     return inizialiWord;
