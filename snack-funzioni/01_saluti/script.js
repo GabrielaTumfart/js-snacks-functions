@@ -17,7 +17,7 @@ const greetUser = (nomeUtente) => {
 
 // Invoca la funzione qui e stampa il risultato in console
 
-const invoca = greetUser(nomeUtente);
+const invoca = greetUser(userName);
 console.log(invoca);
 
 
