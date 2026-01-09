@@ -5,12 +5,12 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 
 // Dichiara la funzione qui.
 
-//! Riprendo la stessa idea dell'esercizio 1
+//! Riprendo la stessa idea dell'esercizio 2
 
 //** Inanzitutto devo creare una funzione che filtra il nome in base alla lettera iniziale.
-// ** La chiamerò --- che sarà una const perché non cambia.
+// ** La chiamerò filtroNomi che sarà una const perché non cambia.
 //** dentro questa costante metterò una funzione */
-//**farò diventare ----il nome della funzione */
+//**farò diventare filtroNomi il nome della funzione */
 //** userò la forma arrow perché mi sembra più facile */
 
 // stampo la lista
@@ -26,7 +26,11 @@ const filtroNomi = (listaDeiNomi, lettera) => [
         const nomeCorrente = alistaDeiNomi[i];
         const primaLettera = nomeCorrente[0]; //! Come ho fatto nell'esercizio precedente
 
+        if(primaLettera === lettera){
+
         nomiGiaFiltrati.push(nomeCorrente);
+
+    }
     }
 
     return nomiGiaFiltrati;
@@ -34,6 +38,8 @@ const filtroNomi = (listaDeiNomi, lettera) => [
 
 
 // Invoca la funzione qui e stampa il risultato in console
+
+
 
 
 
