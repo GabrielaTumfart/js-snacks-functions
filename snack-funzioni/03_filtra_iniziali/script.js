@@ -20,7 +20,16 @@ const filtroNomi = (listaDeiNomi, lettera) => [
 
     // così come nell'esercizio di prima creo un array vuoto
 
-    const nomeGiaFiltrati = [];
+    const nomiGiaFiltrati = [];
+
+    for (let i = 0; i < listaDeiNomi.length; i++) {
+        const nomeCorrente = alistaDeiNomi[i];
+        const primaLettera = nomeCorrente[0]; //! Come ho fatto nell'esercizio precedente
+
+        nomiGiaFiltrati.push(nomeCorrente);
+    }
+
+    return nomiGiaFiltrati;
 ]
 
 
