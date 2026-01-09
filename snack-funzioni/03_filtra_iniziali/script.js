@@ -39,6 +39,10 @@ const filtroNomi = (listaDeiNomi, lettera) => [
 
 // Invoca la funzione qui e stampa il risultato in console
 
+const invoca = filtroNomi(names);
+console.log(invoca);
+
+
 
 
 
