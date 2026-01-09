@@ -21,6 +21,11 @@ const inizialeParole = (nomi) => {
 
     // faccio un ciclo per prendere ogni nomi dell'array
 
+    for (let i = 0; i < nomi.length; i++) {
+        const ilNomeCorrente = nomi[i];
+        
+    }
+
     
 
 }
