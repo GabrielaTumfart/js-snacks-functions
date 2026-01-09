@@ -30,7 +30,7 @@ const inizialeParole = (nomi) => {
 
     for (let i = 0; i < nomi.length; i++) {
         const ilNomeCorrente = nomi[i];
-        primaLetteraDelNome = ilNomeCorrente;
+        const primaLetteraDelNome = ilNomeCorrente;
 
         inizialiWord.push(primaLetteraDelNome) 
         
@@ -47,9 +47,6 @@ const invoca = inizialeParole(names)
 // e stampo il risultato
 
 console.log(invoca);
-
-
-
 
 
 
