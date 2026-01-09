@@ -13,6 +13,9 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 //**farò diventare ----il nome della funzione */
 //** userò la forma arrow perché mi sembra più facile */
 
+// stampo la lista
+console.table(names);
+
 
 // Invoca la funzione qui e stampa il risultato in console
 
