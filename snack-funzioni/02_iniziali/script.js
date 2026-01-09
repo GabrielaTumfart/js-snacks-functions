@@ -36,23 +36,20 @@ const inizialeParole = (nomi) => {
         
     }
 
-    
+    return inizialiWord;
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 // Invoca la funzione qui e stampa il risultato in console
+
+const invoca = inizialeParole(names)
+
+// e stampo il risultato
+
+console.log(invoca);
+
+
+
 
 
 
