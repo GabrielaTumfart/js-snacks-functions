@@ -23,6 +23,7 @@ const inizialeParole = (nomi) => {
 
     for (let i = 0; i < nomi.length; i++) {
         const ilNomeCorrente = nomi[i];
+        primaLetteraDelNome = 
         
     }
 
