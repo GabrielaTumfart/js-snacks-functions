@@ -10,6 +10,10 @@ const userName = 'Mario';
 //**farò diventare greetUser il nome della funzione */
 //** userò la forma arrow perché mi sembra più facile */
 
+const greetUser = (NomeUtente) => {
+    
+}
+
 
 
 
