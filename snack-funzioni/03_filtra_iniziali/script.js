@@ -5,6 +5,14 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 
 // Dichiara la funzione qui.
 
+//! Riprendo la stessa idea dell'esercizio 1
+
+//** Inanzitutto devo creare una funzione che filtra il nome in base alla lettera iniziale.
+// ** La chiamerò --- che sarà una const perché non cambia.
+//** dentro questa costante metterò una funzione */
+//**farò diventare ----il nome della funzione */
+//** userò la forma arrow perché mi sembra più facile */
+
 
 // Invoca la funzione qui e stampa il risultato in console
 
