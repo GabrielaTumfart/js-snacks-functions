@@ -11,7 +11,7 @@ const userName = 'Mario';
 //** userò la forma arrow perché mi sembra più facile */
 
 const greetUser = (nomeUtente) => {
-    const saluto = "Ciao" + " " + nomeUtente;
+    const saluto = "ciao" + " " + nomeUtente;
     return saluto;
 }
 
