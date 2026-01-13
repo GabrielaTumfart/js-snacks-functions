@@ -9,7 +9,7 @@ const countVocali =(text) => {
 const vocali = ["a", "e", "i", "o", "u"];
 let vocaliCounter = 0;
 
-for (let i = 0; i < text.length; i++); {
+for (let i = 0; i < text.length; i++) {
 const letteraCorrente = text[i];
 
 if (vocali.includes(letteraCorrente)) vocaliCounter++;
