@@ -16,6 +16,7 @@ if (vocali.includes(letteraCorrente)) vocaliCounter++;
     
 }
 return vocaliCounter;
+
 }
 // Invoca la funzione qui e stampa il risultato in console
 const invoca = countVocali(word);
