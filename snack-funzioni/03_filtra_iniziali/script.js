@@ -16,30 +16,27 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 // stampo la lista
 console.table(names);
 
-const filtroNomi = (listaDeiNomi, lettera) => [
+const filtroNomi = (listaDeiNomi, lettera) => {
 
     // così come nell'esercizio di prima creo un array vuoto
 
     const nomiGiaFiltrati = [];
 
     for (let i = 0; i < listaDeiNomi.length; i++) {
-        const nomeCorrente = alistaDeiNomi[i];
+        const nomeCorrente = listaDeiNomi[i];
         const primaLettera = nomeCorrente[0]; //! Come ho fatto nell'esercizio precedente
 
-        if(primaLettera === lettera){
+        if(primaLettera === lettera) nomiGiaFiltrati.push(nomeCorrente);
 
-        nomiGiaFiltrati.push(nomeCorrente);
-
-    }
     }
 
     return nomiGiaFiltrati;
-]
 
+};
 
 // Invoca la funzione qui e stampa il risultato in console
 
-const invoca = filtroNomi(names);
+const invoca = filtroNomi(names, "A");
 console.log(invoca);
 
 
